@@ -1,0 +1,35 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="square" style="    right: 35px;   position: relative;">
+                    <p id="scoreCardHome"></p>
+                </div>
+                <div class="btn">
+                    <button id="onePoint" onclick="addOnePointHome()">+1</button>
+                    <button id="onePoint" onclick="addTwoPointHome()">+2</button>
+                    <button id="onePoint" onclick="addThreePointHome()">+3</button>
+                </div>
+               
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="square" style="    right: 35px;   position: relative;">
+                    <p id="scoreCard"></p>
+                </div>
+                <div class="btn">
+                    <button id="onePoint" onclick="addOnePoint()">+1</button>
+                    <button id="onePoint" onclick="addTwoPoint()">+2</button>
+                    <button id="onePoint" onclick="addThreePoint()">+3</button>
+                </div>
+                
+            </div>
+            </div>
+       <button id="reset-btn" onclick="resetbtn()">Reset</button>
+        <script src="index.js"></script>
+    </body>
+</html>
